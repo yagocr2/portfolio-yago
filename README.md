@@ -14,7 +14,7 @@ Este proyecto es mi portfolio con mis proyectos, mi informacion y los medios par
 Este proyecto no requiere de instalacion
 
 ## Ver Ejemplo en vivo
-- [https://yagocr2.github.io/portfolio-yago/]{https://yagocr2.github.io/portfolio-yago/}
+- https://yagocr2.github.io/portfolio-yago/
   
 ## Contratación
 Si quieres contratarme estoy abierto a cualquier propuesta.
