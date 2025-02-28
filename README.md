@@ -31,6 +31,6 @@ I've studied a degree on Multiplataform Applications Development (DAM)
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[APACHE](https://choosealicense.com/licenses/apache/)
 No puede usarse comercialmente
 
