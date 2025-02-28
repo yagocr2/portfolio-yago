@@ -96,6 +96,7 @@ body{
     font-family: var(--tipo-principal);
     font-size: 100%;
     min-height: 100vh;
+    background: var(---negro);
     background-color: var(---negro);
     color: var(--burn-naranja);
     font-smooth: always;
