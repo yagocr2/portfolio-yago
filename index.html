@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+        <title>Portfolio Yago</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+        <link rel ="stylesheet" href="css/font/style.css">
+        <link rel ="stylesheet" href="css/app.css">
+        <script defer src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
+        <script defer src="js/app.js"></script>
+
+        
+
+    </head>
+    <body>
+        <div id="cursor"></div>
+        <!-- 
+            - Tipografia Grande
+            - Cursor personalizado
+            - Transiciones personalizadas -->
+            
+        <div class="circulos">
+            <svg class="circulo circulo1" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <path class="path" d="M70.3,-22.1C79,4,65.7,38,43.2,52.7C20.8,67.4,-10.7,62.8,-31.4,46.8C-52.2,30.9,-62.2,3.8,-55.1,-20C-48.1,-43.8,-24,-64.1,3.4,-65.2C30.8,-66.3,61.6,-48.1,70.3,-22.1Z" transform="translate(100 100)" />
+              </svg>
+              <svg class="circulo circulo2" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <path class="path" d="M70.9,-22.6C79.9,4.6,66.8,39.3,46.4,51.1C26.1,62.9,-1.7,51.7,-23.2,35.3C-44.7,18.9,-59.9,-2.7,-55,-24.4C-50,-46,-25,-67.6,3,-68.5C31,-69.5,61.9,-49.8,70.9,-22.6Z" transform="translate(100 100)" />
+              </svg>
+              <svg class="circulo circulo3" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <path class="path" d="M66.4,-22.6C71.4,-6.4,50.5,17.3,27.9,32.2C5.4,47.1,-19,53.3,-34.2,43.2C-49.5,33,-55.7,6.5,-48.5,-12.9C-41.3,-32.4,-20.6,-44.6,5.1,-46.2C30.7,-47.9,61.5,-38.9,66.4,-22.6Z" transform="translate(100 100)" />
+              </svg>
+              <svg class="circulo circulo4" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <path class="path" d="M50.9,-18.7C58.7,7.4,52.6,35.8,34.1,49.9C15.6,64,-15.3,63.9,-31.6,50.4C-47.9,37,-49.5,10.2,-41.8,-15.8C-34.1,-41.8,-17,-67.1,2.3,-67.8C21.6,-68.5,43.1,-44.8,50.9,-18.7Z" transform="translate(100 100)" />
+              </svg>
+        </div>
+        <header class="header">
+            <h1 class="h1"><a href="#inicio" title = "Yago Calero" class="a">Yago Calero</a></h1>
+            <nav class="nav">
+                <ul class="ul">
+                    <li class="li"><a href="#inicio" title="Inicio" class="a">Inicio</a></li>
+                    <li class="li"><a href="#works" title="Work" class="a">Works</a></li>
+                    <li class="li"><a href="#about" title="About" class="a">About</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            
+            <div class="seccion" id="inicio">
+                
+                <section class="section info">
+                    <h2 class="h2">Yago Calero</h2>
+                    <h3 class="h3">Backend Developer</h3>
+                    <ul class="ul">
+                        <li class="li">
+                            <a href="https://github.com/yagocr2" class="a" title="Github">
+                            Visitar mi Github
+                            </a>
+                        </li>
+                        <li class="li">
+                            <a href="https://linkedin.com/in/yagocr" class="a" title="linkdln">
+                            Visitar mi Linkdln
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+                
+            </div>
+            <section class="seccion works" id="works">
+                <h2 class  = "h2">Works</h2>
+                <p class = "p">Aqui te presento mis trabajos realizados durante estos años para 
+                    mejorar mis habilidades de HTML, CSS, Javascript Java, C# y Spring </p>
+
+                <div class="grid">
+                    <article class="article">
+                        <a class="a" href="#" title="Trabajo1">
+                            <figure class="figure">
+                                <img src="assets/apolo2.jpg" alt="Imagen" class="img" loading="lazy">
+
+                            </figure>
+                            <h4 class="h4">Nombre Trabajo</h4>
+                        </a>
+                    </article>
+                    <article class="article">
+                        <a class="a" href="#" title="Trabajo3">
+                            <figure class="figure">
+                                <img src="assets/naturaleza.jpg" alt="Imagen" class="img" loading="lazy">
+
+                            </figure>
+                            <h4 class="h4">Nombre Trabajo</h4>
+                        </a>
+                    </article>
+                </div>
+            </section>
+            <section class="seccion about" id="about">
+                <h2 class="h2">Sobre mí</h2>
+                <p class="p">Soy Yago, un desarrollador multiplataforma recién titulado con pasión por crear soluciones tecnológicas que combinen funcionalidad
+                     y creatividad. Durante mi formación, he trabajado con tecnologías como C#, Java, Android, SQL, HTML, CSS y .NET, construyendo aplicaciones móviles, web y de escritorio.
+                </p>
+                <p class="p">Soy un gran compañero de trabajo el cual siempre trata de ayudar el resto y colaborar para obtener el mejor resultado</p>
+                <p class="p">Creo en el código limpio y en el trabajo colaborativo. Fuera de la pantalla, me encontrarás leyendo Fantasía o probando nuevas recetas de café. ☕</p>
+                <p class="p">Actualmente estoy tratando de aprender otros lenguajes como C, C++ y Python, ademas de mejorar mis habilidades en el ambito web</p>
+                <p class="p">Estoy abierto a cualquier tipo proyecto y de aprender cualquier tecnología</p>
+                
+
+                <ul class="rrss">
+                    <li class="li">
+                        <a href="https://github.com/yagocr2" class="a" title="Github" target="_blank" rel="noopener noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="svg" viewBox="0 0 16 16">
+                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                              </svg>
+                        </a>
+                    </li>
+                    <li class="li">
+                        <a href="https://linkedin.com/in/yagocr" class="a" title="Linkdln" target="_blank" rel="noopener noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="svg" viewBox="0 0 16 16">
+                                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                              </svg>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </main>
+        
+
+        <footer class="footer">
+            <span class="span"></span>
+
+        </footer>
+
+    </body>
+
+</html>
+<!-- <a href="http://www.freepik.com">Designed by rawpixel.com / Freepik</a> -->
