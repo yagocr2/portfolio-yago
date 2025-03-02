@@ -2,6 +2,7 @@
     
     --blanco: white;
     --negro: #000000;
+    --negro-solid: #000;
     --burn-naranja: rgb(245, 227, 211);
     --beige:rgba(245, 227, 211, 0.85);
     --negro-4:rgba(0,0,0,0.2);
@@ -97,7 +98,7 @@ body{
     font-size: 100%;
     min-height: 100vh;
     background: var(---negro);
-    background-color: var(---negro);
+    background-color: var(--negro-solid);
     color: var(--burn-naranja);
     font-smooth: always;
     -webkit-font-smoothing: antialiased;
