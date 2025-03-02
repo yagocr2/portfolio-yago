@@ -112,8 +112,8 @@ body{
     top: 0;
     left: 0;
     z-index: -1;
-    filter: blur(40px);
-    animation: circulo1 100s linear infinite both;
+    filter: blur(30px);
+    animation: circulo1 200s linear infinite both;
  }
 .circulos .circulo{
     position: absolute;
@@ -126,6 +126,9 @@ body{
     top: 0%;
     left: 0%;
 }
+/* .path{
+    will-change: transform;
+} */
 .circulos .circulo1 .path{
     fill: rgb(119, 0, 0)
 }
@@ -190,6 +193,7 @@ body{
     text-align: center;
     position:relative;
     z-index: 2;
+    contain: paint;
 }
 
 .seccion{

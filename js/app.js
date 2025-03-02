@@ -1,22 +1,19 @@
 'use strict'
 
-$(document).ready(function(){
-
-    $('body').on({'mousemove' : function( e ){
-        console.clear()
-        let clientX = e.originalEvent.clientX
-        let clientY = e.originalEvent.clientY
-        $('#cursor').css({
-            'left':(clientX-40) + 'px',
-            'top':(clientY-40) + 'px'
-        })
-    }})
-    $('.a').on({
-        'mouseover':function(){
-            $('#cursor').addClass('mini')
-        },
-        'mouseout':function(){
-            $('#cursor').removeClass('mini')
-        },
-    })
-})
+document.addEventListener('DOMContentLoaded', () => {
+    const isTouchDevice = 'ontouchstart' in window;
+    if(!isTouchDevice) {
+      const cursor = document.getElementById('cursor');
+      
+      document.addEventListener('mousemove', (e) => {
+        cursor.style.transform = `translate(${e.clientX - 20}px, ${e.clientY - 20}px)`;
+      });
+  
+      document.querySelectorAll('a, button').forEach(el => {
+        el.addEventListener('mouseenter', () => cursor.classList.add('mini'));
+        el.addEventListener('mouseleave', () => cursor.classList.remove('mini'));
+      });
+    } else {
+      cursor.style.display = 'none';
+    }
+  });
